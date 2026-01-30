@@ -1,7 +1,18 @@
 
 ---
-#  <img width="690" height="533" alt="image" src="https://github.com/user-attachments/assets/3f8c6e20-b2a5-4ac3-a439-8656c3e2405c" />
-SecureHub
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/3f8c6e20-b2a5-4ac3-a439-8656c3e2405c"
+    alt="SecureHub Logo"
+    width="200"
+  />
+</p>
+
+<h1 align="center">SecureHub</h1>
+
+<p align="center">
+  <strong>Semester VI Mini Project · Adamas University</strong>
+</p>
 
 **SecureHub** is a centralized platform developed as part of the **Semester VI Mini Project at Adamas University**.
 It serves as a structured showcase for cybersecurity and machine learning projects created by the team, providing descriptions, demonstrations, and external links to individual tools and repositories.
