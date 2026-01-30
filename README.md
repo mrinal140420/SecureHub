@@ -8,7 +8,7 @@
   />
 </p>
 
-<h1 align="center">SecureHub</h1>
+
 
 <p align="center">
   <strong>Semester VI Mini Project · Adamas University</strong>
