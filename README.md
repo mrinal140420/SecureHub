@@ -1,16 +1,180 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+#  <img width="690" height="533" alt="image" src="https://github.com/user-attachments/assets/3f8c6e20-b2a5-4ac3-a439-8656c3e2405c" />
+SecureHub
 
-Currently, two official plugins are available:
+**SecureHub** is a centralized platform developed as part of the **Semester VI Mini Project at Adamas University**.
+It serves as a structured showcase for cybersecurity and machine learning projects created by the team, providing descriptions, demonstrations, and external links to individual tools and repositories.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+SecureHub is not a single tool, but a **unified platform** that brings together multiple cybersecurity and machine learning projects under one interface.
+The platform is designed to present:
 
-## Expanding the ESLint configuration
+* Practical implementations of cybersecurity concepts
+* Machine learning–based security solutions
+* Real-world use cases and demonstrations
+* External project links and live demos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The goal is to bridge **academic learning and real-world application** through a clean, accessible, and professional showcase.
+
+---
+
+## 🎯 Objectives
+
+* To design a centralized platform for showcasing security-focused projects
+* To demonstrate practical applications of cybersecurity and ML concepts
+* To provide easy access to live demos and GitHub repositories
+* To present projects in a structured and academic-friendly manner
+
+---
+
+## 🧩 Featured Projects
+
+SecureHub currently showcases the following projects:
+
+### 🛡️ Phishing Email Sentinel
+
+An intelligent phishing detection system using layered rule-based analysis and machine learning techniques to identify malicious emails.
+
+🔗 Demo: [https://phishingemailsentinel.netlify.app/](https://phishingemailsentinel.netlify.app/)
+
+---
+
+### 🔐 SilentDrop
+
+A privacy-first, zero-knowledge file sharing platform focused on secure and anonymous data transfer.
+
+🔗 Demo: [https://silent-frontend-gamma.vercel.app/](https://silent-frontend-gamma.vercel.app/)
+
+---
+
+### 🧠 PatchSense
+
+An AI-assisted vulnerability risk prioritization dashboard that goes beyond traditional CVSS scoring to support smarter patching decisions.
+
+🔗 Demo: [https://patchsense.vercel.app/](https://patchsense.vercel.app/)
+
+---
+
+## Upcomming Projects.......
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Tailwind CSS
+* Modern responsive UI design
+
+### Backend / Tools (Project-specific)
+
+* Python
+* Node.js
+* Express.js
+* Machine Learning models
+* Security analysis tools and APIs
+
+---
+
+## 🧱 Platform Features
+
+* Centralized project showcase
+* Responsive and modern UI
+* External links to live demos and repositories
+* Clean visual hierarchy for academic review
+* Scalable structure for adding future projects
+
+---
+
+## 📁 Project Structure (Simplified)
+
+```
+SecureHub/
+├── src/
+│   ├── pages/
+│   │   ├── LandingPage.jsx
+│   │   └── ProjectsPage.jsx
+│   ├── assets/
+│   │   ├── images/
+│   │   └── logo/
+│   └── components/
+├── public/
+├── README.md
+└── package.json
+```
+
+---
+
+## 🚀 Getting Started (Local Setup)
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/mrinal140420/SecureHub
+```
+
+2. Navigate to the project directory:
+
+```bash
+cd securehub
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 👥 Team Members
+
+* **Mrinal Sahoo** – Frontend & Integration
+* **Soma Chatterjee** – UI/UX Implementation and Project Management
+* **Ashwani Kumar** – ML implementations
+* **Ankita Biswas** – UI/UX & Documentation
+
+---
+
+## 🎓 Academic Context
+
+* **University:** Adamas University
+* **Course:** B.Tech / Semester VI
+* **Project Type:** Mini Project
+* **Domain:** Cybersecurity & Machine Learning
+
+---
+
+## ⚠️ Disclaimer
+
+All projects showcased on SecureHub are developed **strictly for educational and academic purposes**.
+The authors are not responsible for misuse of any tools or concepts demonstrated.
+
+---
+
+## 📜 License
+
+This project is intended for **academic use only**.
+Refer to individual project repositories for their respective licenses.
+
+---
+
+## ⭐ Acknowledgements
+
+* Adamas University faculty and mentors
+* Open-source tools and libraries used in individual projects
+
+---
+![Logo] 
+
