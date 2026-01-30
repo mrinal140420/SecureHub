@@ -1,0 +1,119 @@
+/** @import must precede all other statements */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 220 30% 6%;
+    --foreground: 210 40% 96%;
+
+    --card: 220 25% 12%;
+    --card-foreground: 210 40% 96%;
+
+    --popover: 220 25% 12%;
+    --popover-foreground: 210 40% 96%;
+
+    --primary: 260 80% 56%;
+    --primary-foreground: 220 30% 6%;
+
+    --secondary: 200 100% 50%;
+    --secondary-foreground: 220 30% 6%;
+
+    --muted: 220 15% 35%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 280 85% 55%;
+    --accent-foreground: 220 30% 6%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 220 25% 20%;
+    --input: 220 25% 20%;
+    --ring: 260 80% 56%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 220 30% 6%;
+    --foreground: 210 40% 96%;
+    --card: 220 25% 12%;
+    --popover: 220 25% 12%;
+    --primary: 260 80% 56%;
+    --secondary: 200 100% 50%;
+    --muted: 220 15% 35%;
+    --accent: 280 85% 55%;
+    --destructive: 0 84.2% 60.2%;
+    --border: 220 25% 20%;
+    --input: 220 25% 20%;
+    --ring: 260 80% 56%;
+  }
+
+  /* Apply theme safely */
+  * {
+    border-color: hsl(var(--border));
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: "Inter", sans-serif;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  :where(p, span, li, h1, h2, h3, h4, h5, h6, a, button, label, td, th) {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+  }
+
+  pre,
+  code {
+    overflow-x: auto;
+    white-space: pre;
+  }
+}
+
+@layer components {
+  .shadow-glow {
+    box-shadow:
+      0 0 20px rgba(147, 51, 234, 0.35),
+      0 0 40px rgba(147, 51, 234, 0.15);
+  }
+
+  .shadow-glow-secondary {
+    box-shadow:
+      0 0 20px rgba(34, 211, 238, 0.35),
+      0 0 40px rgba(34, 211, 238, 0.15);
+  }
+
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
