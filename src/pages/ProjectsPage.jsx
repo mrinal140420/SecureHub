@@ -23,6 +23,22 @@ const PROJECTS = [
       "AI-Driven Vulnerability Prioritization & Patch Planning.",
     icon: <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M530-80q-11 0-20.5-5.5T495-100q-5-9-5-20t6-21l170-280q6-10 15-15t19-5q10 0 19 5t15 15l170 280q6 10 6 21t-5 20q-5 9-14 14.5T870-80H530Zm170.14-35q10.86 0 18.86-8.14 8-8.15 8-19 0-10.86-8.14-18.86-8.15-8-19-8-10.86 0-18.86 8.14-8 8.15-8 19 0 10.86 8.14 18.86 8.15 8 19 8ZM317-160q-8.17 0-15.23-3.93-7.06-3.93-10.77-11.07l-84-150h71l42 80h90v-30h-71.78L296-355H191l-63-110q-1.6-3.75-2.8-7.5-1.2-3.75-1.2-7.5 0-2 4-15l63-110h105l42.22-80H410v-30h-90l-42 80h-71l84-150q3.71-7.14 10.77-11.07Q308.83-800 317-800h118q12.75 0 21.38 8.62Q465-782.75 465-770v175h-85l-30 30h115v130h-98l-39-80h-98l-30 30h108l40 80h117v199l-15 25q-3.33 4.77-5.56 10.02-2.22 5.25-4.44 10.98H317Zm359-41h48v-146h-48v146Zm-181-54v-310h115l-30-30h-85v-175q0-12.75 8.63-21.38Q512.25-800 525-800h118q8.17 0 15.23 3.93 7.06 3.93 10.77 11.07l84 150h-71l-42-80h-90v30h71.78L664-605h105l63 110q2.4 3.75 3.2 7.5.8 3.75.8 7.5 0 2-4 15l-26 46-26-43q-12-20-32-29.5t-48-9.5q-28 0-47.5 9.5T621-462L495-255Z"/></svg>,
     url: "https://patchsense.vercel.app/",
+  },
+  {
+    id: "honeyshield",
+    name: "HoneyShield",
+    description:
+      "Honeypot Monitoring & Threat Intelligence Platform with ML-powered risk scoring and attack classification for real-time SOC dashboards.",
+    icon: <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M480-80q-139-35-229.5-159.5T160-520v-244l320-120 320 120v244q0 151-90.5 275.5T480-80Zm0-66q104-33 172-117t68-191v-188L480-612 240-562v188q0 107 68 191t172 117Zm0-254Zm58-100h-36v-92h-84v92h-36v-164h36v60h84v-60h36v164Zm-58 10q33 0 56.5-23.5T560-500q0-33-23.5-56.5T480-580q-33 0-56.5 23.5T400-500q0 33 23.5 56.5T480-420Z"/></svg>,
+    url: "http://localhost:3000/projects/honeyshield/",
+  },
+  {
+    id: "intelliscan",
+    name: "IntelliScan",
+    description:
+      "AI-powered static code security analysis with hybrid detection (regex, AST, ML), vulnerability findings, and risk scoring for secure code reviews.",
+    icon: <svg xmlns="http://www.w3.org/2000/svg" height="48px" viewBox="0 -960 960 960" width="48px" fill="#FFFFFF"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>,
+    url: "https://intelliscan-frontend.onrender.com",
   }
 ];
 
